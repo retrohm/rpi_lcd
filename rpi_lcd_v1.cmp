@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Thu Apr  4 19:25:05 2013
+
+BeginCmp
+TimeStamp = /5122C65B;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5122BF0B;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5122BF6B;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5122BF71;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5122BF77;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5122BA5C;
+Reference = J1;
+ValeurCmp = PBD-26;
+IdModule  = pin_array_13x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5122C11F;
+Reference = P1;
+ValeurCmp = CONN_9;
+IdModule  = nokia5110;
+EndCmp
+
+BeginCmp
+TimeStamp = /5122BF82;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5122BF88;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5122BF8E;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5122BF94;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5122E4A1;
+Reference = SW_1;
+ValeurCmp = FSM4JSMA-SMD;
+IdModule  = switch-misc-FSM4JSMA-SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5122E52D;
+Reference = SW_2;
+ValeurCmp = FSM4JSMA-SMD;
+IdModule  = switch-misc-FSM4JSMA-SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5122E533;
+Reference = SW_3;
+ValeurCmp = FSM4JSMA-SMD;
+IdModule  = switch-misc-FSM4JSMA-SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5122E53F;
+Reference = SW_4;
+ValeurCmp = FSM4JSMA-SMD;
+IdModule  = switch-misc-FSM4JSMA-SMD;
+EndCmp
+
+EndListe
