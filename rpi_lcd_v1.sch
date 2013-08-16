@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 28 Mar 2013 08:22:25 PM CDT
+EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,7 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:rpi_lcd_v1-cache
-EELAYER 27 0
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -92,7 +92,7 @@ F 1 "LED" H 7750 3750 50  0000 C CNN
 F 2 "" H 7750 3850 60  0000 C CNN
 F 3 "" H 7750 3850 60  0000 C CNN
 	1    7750 3850
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L LED D2
@@ -103,7 +103,7 @@ F 1 "LED" H 7750 4050 50  0000 C CNN
 F 2 "" H 7750 4150 60  0000 C CNN
 F 3 "" H 7750 4150 60  0000 C CNN
 	1    7750 4150
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L LED D3
@@ -114,7 +114,7 @@ F 1 "LED" H 7750 4350 50  0000 C CNN
 F 2 "" H 7750 4450 60  0000 C CNN
 F 3 "" H 7750 4450 60  0000 C CNN
 	1    7750 4450
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L LED D4
@@ -125,7 +125,7 @@ F 1 "LED" H 7750 4650 50  0000 C CNN
 F 2 "" H 7750 4750 60  0000 C CNN
 F 3 "" H 7750 4750 60  0000 C CNN
 	1    7750 4750
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R1
@@ -368,7 +368,7 @@ SCLK
 Text GLabel 6400 6500 2    60   Input ~ 0
 SDIN
 Text GLabel 6100 6400 2    60   Input ~ 0
-D/C
+D_C
 Text GLabel 6400 6300 2    60   Input ~ 0
 SCE
 Wire Wire Line
@@ -413,7 +413,6 @@ Wire Wire Line
 	4700 4450 4950 4450
 Wire Wire Line
 	4950 4250 4700 4250
-NoConn ~ 6250 4650
 NoConn ~ 6250 4450
 NoConn ~ 6250 4350
 NoConn ~ 6250 4250
@@ -431,4 +430,8 @@ F 3 "" H 5600 4550 60  0000 C CNN
 	1    5600 4550
 	1    0    0    -1  
 $EndComp
+Text GLabel 6500 4650 2    60   Input ~ 0
+D_C
+Wire Wire Line
+	6250 4650 6500 4650
 $EndSCHEMATC
